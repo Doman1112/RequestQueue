@@ -1,0 +1,10 @@
+@FunctionalInterface
+public interface Request implements Runnable {
+
+  @Override
+  public void run();
+  
+  public default void callback() {
+  
+  }
+}
